@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Tour020.Models.GuestResponse>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width" />
+        <title>Thanks</title>
+    </head>
+    <body>
+        <h2>Here is the list of people attending the party</h2>
+        <table>
+            <thead>
+                <tr><th>Name</th><th>Email</th><th>Phone</th></th></tr>
+            </thead>
+            <tbody>
+            @foreach (Tour020.Models.GuestResponse r in Model!)
+            {
+                <td>@r.Name</td>
+                <td>@r.Email</td>
+                <td>@r.Phone</td>
+            }
+        </tbody>
+        </table>
+
+    </body>
+</html>
