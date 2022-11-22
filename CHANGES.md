@@ -1,4 +1,9 @@
 CHANGES
+===
+
+0.3.0 / 2022-11-22
+---
+* Added - Tour030 was initially committed.
 
 0.2.0 / 2022-11-21
 ---
