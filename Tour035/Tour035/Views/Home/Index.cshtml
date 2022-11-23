@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Product>
+@{
+    Layout = null; 
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Language Features</title>
+    </head>
+    <body>
+        <ul>
+        @foreach (Product p in Model)
+        {
+            <li> @(p?.Name.Length > 0 ? p?.Name : "n/a") </li>
+        }
+        </ul>
+    </body>
+</html>
