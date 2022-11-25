@@ -1,0 +1,21 @@
+﻿@{ #pragma warning disable CS8602 }
+@model Dictionary<string, Product>
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width" />
+        <title>Language Features</title>
+    </head>
+    <body>
+    <h2>Demo Dictionary</h2>
+    @foreach(KeyValuePair<string, Product> kvp in Model)
+    {
+        <li>@kvp.Key</li>
+        <li>@kvp.Value.Price.ToString()</li>
+    }
+    <br />
+    <a asp-controller="Home">Home</a>
+</body>
+</html>

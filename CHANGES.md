@@ -1,6 +1,10 @@
 CHANGES
 ===
 
+0.5.0 / 2022-11-25
+---
+* Added - Tour040 was initially committed.
+
 0.4.0 / 2022-11-23
 ---
 * Added - Tour035 was initially committed.
