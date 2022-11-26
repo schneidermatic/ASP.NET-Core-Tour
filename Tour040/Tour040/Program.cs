@@ -30,6 +30,14 @@ app.UseEndpoints(endpoints =>
         name: "dictionary",
         pattern: "{controller=dictionary}/{action=Index}/{id?}");
 
+    endpoints.MapControllerRoute(
+        name: "patternmatching",
+        pattern: "{controller=dictionary}/{action=Index}/{id?}");
+
+    endpoints.MapControllerRoute(
+        name: "extensionmethod",
+        pattern: "{controller=dictionary}/{action=Index}/{id?}");
+
 });
 
 /*

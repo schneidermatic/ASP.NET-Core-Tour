@@ -1,5 +1,5 @@
 ﻿@{ #pragma warning disable CS8602 }
-@model Dictionary<string, Product>
+@model IEnumerable<string>
 @{ Layout = null; }
 
 <!DOCTYPE html>
@@ -9,11 +9,10 @@
         <title>Language Features</title>
     </head>
     <body>
-    <h2>Dictionary Demo</h2>
-    @foreach(KeyValuePair<string, Product> kvp in Model)
+    <h2>Pattern Matching Demo</h2>
+    @foreach(string s in Model)
     {
-        <li>@kvp.Key</li>
-        <li>@kvp.Value.Price.ToString()</li>
+        <li>@s</li>
     }
     <br />
     <a asp-controller="Home">Home</a>
