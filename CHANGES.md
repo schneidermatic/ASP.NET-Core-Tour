@@ -1,6 +1,10 @@
 CHANGES
 ===
 
+0.6.0 / 2022-11-26
+---
+* Added - PatternMatching & ExtensionMethod were added to 'Tour040'.
+
 0.5.0 / 2022-11-25
 ---
 * Added - Tour040 was initially committed.
