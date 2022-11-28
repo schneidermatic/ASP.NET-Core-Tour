@@ -5,11 +5,11 @@ using Tour040.Models;
 
 namespace Tour040.Controllers
 {
-    public class FilteringExtensionMethodController : Controller
+    public class FilterByPriceExtensionMethodController : Controller
     {
-        private readonly ILogger<FilteringExtensionMethodController> _logger;
+        private readonly ILogger<FilterByPriceExtensionMethodController> _logger;
 
-        public FilteringExtensionMethodController(ILogger<FilteringExtensionMethodController> logger)
+        public FilterByPriceExtensionMethodController(ILogger<FilterByPriceExtensionMethodController> logger)
         {
             _logger = logger;
         }
