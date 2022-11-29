@@ -1,6 +1,10 @@
 CHANGES
 ===
 
+0.9.0 / 2022-11-29
+---
+* Added - FunctionExtensionMethod was added to 'Tour040'.
+
 0.8.0 / 2022-11-28
 ---
 * Added - FilterByNameExtensionMethod was added to 'Tour040'.
